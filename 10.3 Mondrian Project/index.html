@@ -6,6 +6,16 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Mondrian Project</title>
   <style>
+    body{
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+margin: 0;
+padding: 0;
+
+    }
+
     .main {
       display: grid;
       height: 748px;
@@ -15,19 +25,24 @@
       grid-template-rows: 414px 130px 155px 20px ;
       background-color:#000;
     }
+
     .red{
 background-color:#E72F24 ;
     }
+
 .White {
 background-color: #F0F1EC ;
    } 
+
 .Blue{
   background-color: #004592;
   border: 10px solid;
 }
+
 .Yellow{
   background-color:#F9D01E ;
 }
+
 .Black{
   background-color:#232629 ;
 }
@@ -35,12 +50,15 @@ background-color: #F0F1EC ;
   .White1 {
 grid-column: span 3 ;
 }
+
 .White2{
 grid-row: span 2;
  } 
+
  .White3{
 grid-area: 2/2/4/4;
 }
+
 .White4{
 grid-row: span 2;
 }
@@ -69,7 +87,7 @@ grid-row: span 2;
 
        <div class="Blue"></div>
        <div class="White 4" ></div>
-       
+
        <div class="White" ></div>
        <div class="Yellow"></div>
        <div class="Black"></div>
